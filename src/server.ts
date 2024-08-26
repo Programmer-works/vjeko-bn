@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import dotenv from 'dotenv';
 import cors from 'cors';
-import router from "./routes/index";
+import router from "./routes/index.ts";
 
 dotenv.config();
 

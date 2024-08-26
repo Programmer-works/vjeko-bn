@@ -1,6 +1,6 @@
 import express from 'express';
-import upload from '../middleware/cloudinary'
-import MemberController from '../controller/memberController';
+import upload from '../middleware/cloudinary.ts'
+import MemberController from '../controller/memberController.ts';
 
 const router = express.Router();
 

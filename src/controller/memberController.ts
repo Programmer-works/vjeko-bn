@@ -1,9 +1,10 @@
 import express,{Request,Response} from 'express'
-import { successmessage } from '../utilies/successmessage'
-import { errormessage } from '../utilies/errormessage'
+import { successmessage } from '../utilies/successmessage.ts'
+import { errormessage } from '../utilies/errormessage.ts'
 import News from '../model/news'
-import cloudinary from '../utilies/cloud'
-import Member from '../model/member'
+import cloudinary from '../utilies/cloud.ts'
+import Member from '../model/member.ts'
+
 class MemberController {
    public static async createMember(req:Request, res:Response):Promise<void>{
         try {

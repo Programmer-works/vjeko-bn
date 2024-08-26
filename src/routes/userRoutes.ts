@@ -1,8 +1,8 @@
 import express,{Router} from "express"
-import { userController } from "../controller/userController"
-import { DataCheckers } from "../middleware/datachecker"
-import { Validation } from "../middleware/validation"
-import VerifyAccess from "../middleware/verifyAccess"
+import { userController } from "../controller/userController.ts"
+import { DataCheckers } from "../middleware/datachecker.ts"
+import { Validation } from "../middleware/validation.ts"
+import VerifyAccess from "../middleware/verifyAccess.ts"
 
 
 

@@ -1,7 +1,7 @@
 
 import { Request, Response, NextFunction } from "express";
 import { check, validationResult } from "express-validator";
-import { errormessage } from "../utilies/errormessage";
+import { errormessage } from "../utilies/errormessage.ts";
 
 class Validation {
   public static inputValidator(req: Request, res: Response, next: NextFunction) {

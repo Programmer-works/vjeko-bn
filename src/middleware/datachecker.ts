@@ -1,6 +1,6 @@
 import express,{Request,Response,NextFunction} from "express"
-import { User } from "../model/user"
-import { errormessage } from "../utilies/errormessage"
+import { User } from "../model/user.ts"
+import { errormessage } from "../utilies/errormessage.ts"
 
 
 class DataCheckers{

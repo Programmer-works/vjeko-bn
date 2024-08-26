@@ -1,7 +1,7 @@
 import express,{Request,Response} from 'express'
-import { User } from '../model/user'
-import { errormessage } from '../utilies/errormessage'
-import { successmessage } from '../utilies/successmessage'
+import { User } from '../model/user.ts'
+import { errormessage } from '../utilies/errormessage.ts'
+import { successmessage } from '../utilies/successmessage.ts'
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
 

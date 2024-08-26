@@ -1,8 +1,8 @@
 import express,{Request,Response} from 'express'
-import { successmessage } from '../utilies/successmessage'
-import { errormessage } from '../utilies/errormessage'
-import News from '../model/news'
-import cloudinary from '../utilies/cloud'
+import { successmessage } from '../utilies/successmessage.ts'
+import { errormessage } from '../utilies/errormessage.ts'
+import News from '../model/news.ts'
+import cloudinary from '../utilies/cloud.ts'
 class newsController {
    public static async postNews(req:Request, res:Response):Promise<void>{
         try {

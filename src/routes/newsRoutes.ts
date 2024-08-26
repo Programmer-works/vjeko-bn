@@ -1,6 +1,6 @@
 import express from 'express';
-import newsController from '../controller/newsController';
-import upload from '../middleware/cloudinary';
+import newsController from '../controller/newsController.ts';
+import upload from '../middleware/cloudinary.ts';
 
 const router = express.Router();
 

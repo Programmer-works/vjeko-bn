@@ -1,8 +1,8 @@
 import express,{Router} from "express"
 
-import userRouter from "../routes/userRoutes"
-import newsRoutes from "../routes/newsRoutes"
-import memberRoutes from "../routes/memberRoutes"
+import userRouter from "../routes/userRoutes.ts"
+import newsRoutes from "../routes/newsRoutes.ts"
+import memberRoutes from "../routes/memberRoutes.ts"
 
 const router:Router=express.Router()
 router.use("/user",userRouter)
